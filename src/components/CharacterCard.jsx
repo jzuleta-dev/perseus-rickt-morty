@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "wouter";
-import PropTypes from "prop-types";
 
 import styled from "styled-components";
 
@@ -59,11 +58,3 @@ export const CharacterCard = ({
     </Link>
   );
 };
-
-// CharacterCard.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   status: PropTypes.string.isRequired,
-//   origin: PropTypes.object.isRequired,
-//   avatar: PropTypes.string.isRequired,
-//   species: PropTypes.string.isRequired,
-// };
