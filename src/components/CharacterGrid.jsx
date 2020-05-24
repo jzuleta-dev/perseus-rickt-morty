@@ -1,12 +1,11 @@
 import React from "react";
 
 import styled from "styled-components";
-import { CharCard } from "./CharacterCard";
-import ReactPaginate from "react-paginate";
+import { CharCard } from "components/CharacterCard";
 
 const Container = styled.div`
   display: flex;
-  width: 100%;
+  width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -16,35 +15,25 @@ const Container = styled.div`
 const GridContainer = styled.div`
   display: flex;
   width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
   flex-direction: row;
   flex-wrap: wrap;
 `;
 
-export const CharacterGrid = ({ characterList }) => (
+export const CharacterGrid = ({ characters }) => (
   <Container>
     <GridContainer>
-      {characterList.map((character) => (
+      {characters.map((character) => (
         <CharCard
+          key={character.id}
           name={character.name}
           status={character.status}
           origin={character.origin.name}
           avatar={character.image}
+          species={character.species}
         />
       ))}
     </GridContainer>
-
-    <ReactPaginate
-      previousLabel={"previous"}
-      nextLabel={"next"}
-      breakLabel={"..."}
-      breakClassName={"break-me"}
-      pageCount={30}
-      marginPagesDisplayed={2}
-      pageRangeDisplayed={5}
-      onPageChange={() => console.log("page change")}
-      containerClassName={"pagination"}
-      subContainerClassName={"pages pagination"}
-      activeClassName={"active"}
-    />
   </Container>
 );
