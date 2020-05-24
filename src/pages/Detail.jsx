@@ -25,7 +25,7 @@ const DetailContainer = styled.div`
   padding: 16px;
 `;
 
-export function Detail({ params }) {
+export const Detail = ({ params }) => {
   const [character, setCharacter] = useState(
     useGlobalCharacters().find((char) => char.id === Number(params.id))
   );
@@ -50,8 +50,6 @@ export function Detail({ params }) {
     };
     if (character) getRecommendedListBySpecies();
   }, [character]);
-
-  console.log(recommended);
   return character === undefined || recommended === [] ? (
     <Spinner />
   ) : (
@@ -71,4 +69,4 @@ export function Detail({ params }) {
       </RecommendedContainer>
     </DetailContainer>
   );
-}
+};

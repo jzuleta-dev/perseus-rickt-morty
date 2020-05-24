@@ -3,7 +3,7 @@ import { useState, useEffect, useContext } from "react";
 import CharactersContext from "context/CharactersContext";
 import { getCharacters, getNextPage } from "services/getCharacters";
 
-export function useCharacters({ keyword } = { keyword: "" }) {
+export const useCharacters = ({ keyword } = { keyword: "" }) => {
   const [loading, setLoading] = useState(false);
 
   const [loadNextPage, setLoadNextPage] = useState(false);
@@ -35,4 +35,4 @@ export function useCharacters({ keyword } = { keyword: "" }) {
   }, [loadNextPage, info, setCharacters, setInfo]);
 
   return { loading, setLoadNextPage, characters, info };
-}
+};

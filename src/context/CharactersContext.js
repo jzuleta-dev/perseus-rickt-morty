@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Context = React.createContext({});
 
-export function CharactersContextProvider({ children }) {
+export const CharactersContextProvider = ({ children }) => {
   const [characters, setCharacters] = useState([]);
   const [info, setInfo] = useState([]);
 
@@ -11,6 +11,6 @@ export function CharactersContextProvider({ children }) {
       {children}
     </Context.Provider>
   );
-}
+};
 
 export default Context;

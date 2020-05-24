@@ -13,21 +13,27 @@ const Container = styled.div`
   height: 100%;
   overflow-y: scroll;
 `;
+
+const FormContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+`;
+
+const Form = styled.form`
+  display: flex;
+  flex-direction: row;
+`;
+const Button = styled.button`
+  font-size: 16px;
+`;
+
 const InputContainer = styled.div``;
 
 const Input = styled.input`
   padding: 5px;
   border-radius: 5px;
   font-size: 16px;
-`;
-
-const Button = styled.button`
-  font-size: 16px;
-`;
-
-const Form = styled.form`
-  display: flex;
-  flex-direction: row;
 `;
 
 export const Home = () => {
@@ -59,16 +65,18 @@ export const Home = () => {
   }, [debounceHandleNextPage, isNearScreen, setLoadNextPage]);
   return (
     <Container>
-      <Form onSubmit={handleSubmit}>
-        <InputContainer>
-          <Input
-            onChange={handleQueryChange}
-            value={keyword}
-            placeholder={"Search by name..."}
-          />
-        </InputContainer>
-        <Button>Search</Button>
-      </Form>
+      <FormContainer>
+        <Form onSubmit={handleSubmit}>
+          <InputContainer>
+            <Input
+              onChange={handleQueryChange}
+              value={keyword}
+              placeholder={"Search by name..."}
+            />
+          </InputContainer>
+          <Button>Search</Button>
+        </Form>
+      </FormContainer>
       {loading ? (
         <Spinner />
       ) : (
@@ -80,37 +88,3 @@ export const Home = () => {
     </Container>
   );
 };
-
-// const [queryName, setQueryName] = useState("");
-// const [searchResults, setSearchResults] = useState([]);
-// const { characters, error, isLoading } = fetchAllCharacters();
-// const fetchQueryCharacters = async (query) => {
-//   try {
-//     const response = await axios.get(
-//       `https://rickandmortyapi.com/api/character/?name=${query}`
-//     );
-//     console.log(response.data.results);
-//     setSearchResults(response.data.results);
-//   } catch (error) {
-//     console.log(error);
-//   }
-// };
-// const debouncedSearch = useCallback(
-//   debounce((query) => fetchQueryCharacters(query), 1000),
-//   []
-// );
-// const handleQueryChange = (e) => {
-//   setQueryName(e.target.value);
-//   if (e.target.value === "") {
-//     setSearchResults([]);
-//   } else {
-//     debouncedSearch(e.target.value);
-//   }
-// };
-
-// if (isLoading) {
-//   return <div>Loading...</div>;
-// }
-// if (error) {
-//   console.log(error);
-// }

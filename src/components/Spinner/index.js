@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export default function Spinner() {
+const Spinner = () => {
   return (
     <div className="lds-ring">
       <div></div>
@@ -10,4 +10,6 @@ export default function Spinner() {
       <div></div>
     </div>
   );
-}
+};
+
+export default Spinner;

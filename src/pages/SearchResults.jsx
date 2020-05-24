@@ -12,7 +12,7 @@ const Container = styled.div`
   height: 100%;
   overflow-y: scroll;
 `;
-export default function SearchResults({ params }) {
+const SearchResults = ({ params }) => {
   const { keyword } = params;
   const { loading, characters, setLoadNextPage } = useCharacters({ keyword });
   const externalRef = useRef();
@@ -42,4 +42,6 @@ export default function SearchResults({ params }) {
       )}
     </Container>
   );
-}
+};
+
+export default SearchResults;

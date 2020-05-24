@@ -13,6 +13,7 @@ const Card = styled.div`
   border-radius: 15px;
   background-color: white;
   overflow: hidden;
+  cursor: pointer;
 `;
 
 const Info = styled.div`
