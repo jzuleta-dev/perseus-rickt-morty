@@ -4,9 +4,10 @@ const Context = React.createContext({});
 
 export function CharactersContextProvider({ children }) {
   const [characters, setCharacters] = useState([]);
+  const [info, setInfo] = useState([]);
 
   return (
-    <Context.Provider value={{ characters, setCharacters }}>
+    <Context.Provider value={{ characters, info, setInfo, setCharacters }}>
       {children}
     </Context.Provider>
   );

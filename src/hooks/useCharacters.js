@@ -1,24 +1,38 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { useState, useEffect, useContext } from "react";
 import CharactersContext from "context/CharactersContext";
-import getCharacters from "services/getCharacters";
+import { getCharacters, getNextPage } from "services/getCharacters";
 
 export function useCharacters({ keyword } = { keyword: "" }) {
   const [loading, setLoading] = useState(false);
-  // const [loadingNextPage, setLoadingNextPage] = useState(false);
 
-  const { characters, setCharacters } = useContext(CharactersContext);
+  const [loadNextPage, setLoadNextPage] = useState(false);
+
+  const { characters, setCharacters, info, setInfo } = useContext(
+    CharactersContext
+  );
 
   useEffect(() => {
     setLoading(true);
-
-    getCharacters({ keyword }).then((characters) => {
-      console.log("getCharacters", characters);
-      setCharacters(characters.results);
+    getCharacters({ keyword }).then((response) => {
+      setCharacters(response.results);
+      setInfo(response.info);
       setLoading(false);
-      localStorage.setItem("lastKeyword", keyword);
     });
-  }, [keyword, setCharacters]);
+  }, [keyword, setCharacters, setInfo]);
 
-  return { loading, characters };
+  useEffect(() => {
+    if (!loadNextPage) return;
+
+    getNextPage(info).then((nextCharacters) => {
+      setCharacters((prevCharacters) =>
+        prevCharacters.concat(nextCharacters.results)
+      );
+
+      setLoadNextPage(false);
+      setInfo(nextCharacters.info);
+    });
+  }, [loadNextPage, info, setCharacters, setInfo]);
+
+  return { loading, setLoadNextPage, characters, info };
 }
