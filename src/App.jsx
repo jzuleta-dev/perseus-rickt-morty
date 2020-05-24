@@ -3,6 +3,7 @@ import styled from "styled-components";
 import "./App.css";
 import { Header } from "pages/Header";
 import { Home } from "pages/Home";
+import { Detail } from "pages/Detail";
 import SearchResults from "pages/SearchResults";
 import { Route } from "wouter";
 import { CharactersContextProvider } from "context/CharactersContext";
@@ -21,6 +22,7 @@ function App() {
       <CharactersContextProvider>
         <Route path="/" component={Home} />
         <Route path="/search/:keyword" component={SearchResults} />
+        <Route path="/character/:id" component={Detail} />
       </CharactersContextProvider>
     </AppContainer>
   );
