@@ -23,7 +23,7 @@ const SearchResults = ({ params }) => {
 
   const debounceHandleNextPage = useCallback(
     debounce(() => setLoadNextPage(true, 200)),
-    setLoadNextPage
+    [setLoadNextPage]
   );
 
   useEffect(() => {
@@ -35,7 +35,6 @@ const SearchResults = ({ params }) => {
         <Spinner />
       ) : (
         <>
-          {" "}
           <CharacterGrid characters={characters} />
           <div id="visor" ref={externalRef}></div>
         </>
