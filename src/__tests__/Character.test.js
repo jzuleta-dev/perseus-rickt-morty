@@ -1,18 +1,7 @@
 import React from "react";
 import { CharacterCard } from "components/CharacterCard";
 import renderer from "react-test-renderer";
-
-const characterMock = {
-  id: 1,
-  name: "Rick Sanchez",
-  status: "Alive",
-  image: "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
-  origin: {
-    name: "Earth (C-137)",
-    url: "https://rickandmortyapi.com/api/location/1",
-  },
-  species: "Human",
-};
+import { characterMock } from "testUtils";
 
 test("Character with data", () => {
   const component = renderer.create(
