@@ -1,0 +1,939 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Character with data 1`] = `
+<div
+  className="sc-AxjAm kxXXrQ"
+  href="/character/1"
+  onClick={[Function]}
+  to={null}
+>
+  <img
+    alt="character-avatar"
+    className="sc-AxiKw dKbEvk"
+    src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+  />
+  <div
+    className="sc-AxirZ iJAKen"
+  >
+    <div>
+      <b>
+        Name:
+      </b>
+       
+      Rick Sanchez
+    </div>
+    <div>
+      <b>
+        Status:
+      </b>
+       
+      Alive
+    </div>
+    <div>
+      <b>
+        Origin:
+      </b>
+       
+      Earth (C-137)
+    </div>
+    <div>
+      <b>
+        Species:
+      </b>
+       
+      Human
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CharacterGrid with data 1`] = `
+<div
+  className="sc-AxhCb cnkuys"
+>
+  <div
+    className="sc-AxhUy eGhywY"
+  >
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/1"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/1.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Rick Sanchez
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (C-137)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/2"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Morty Smith
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (C-137)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/3"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/3.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Summer Smith
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (Replacement Dimension)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/4"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/4.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Beth Smith
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (Replacement Dimension)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/5"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Jerry Smith
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (Replacement Dimension)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/6"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/6.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Abadango Cluster Princess
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Abadango
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Alien
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/7"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/7.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Abradolf Lincler
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (Replacement Dimension)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/8"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/8.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Adjudicator Rick
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Dead
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/9"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/9.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Agency Director
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Dead
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (Replacement Dimension)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/10"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/10.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Alan Rails
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Dead
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/11"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/11.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Albert Einstein
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Dead
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (C-137)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/12"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/12.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Alexander
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Dead
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (C-137)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/13"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/13.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Alien Googah
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Alien
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/14"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/14.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Alien Morty
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Alien
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/15"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/15.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Alien Rick
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Alien
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/16"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/16.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Amish Cyborg
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Dead
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Alien
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/17"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/17.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Annie
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          Earth (C-137)
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/18"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/18.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Antenna Morty
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          Alive
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/19"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/19.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Antenna Rick
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-AxjAm kxXXrQ"
+      href="/character/20"
+      onClick={[Function]}
+      to={null}
+    >
+      <img
+        alt="character-avatar"
+        className="sc-AxiKw dKbEvk"
+        src="https://rickandmortyapi.com/api/character/avatar/20.jpeg"
+      />
+      <div
+        className="sc-AxirZ iJAKen"
+      >
+        <div>
+          <b>
+            Name:
+          </b>
+           
+          Ants in my Eyes Johnson
+        </div>
+        <div>
+          <b>
+            Status:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Origin:
+          </b>
+           
+          unknown
+        </div>
+        <div>
+          <b>
+            Species:
+          </b>
+           
+          Human
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
