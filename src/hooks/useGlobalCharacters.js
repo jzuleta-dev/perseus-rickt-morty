@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import CharactersContext from "context/CharactersContext";
 
-const useGlobalGifs = () => {
+const useGlobalCharacters = () => {
   return useContext(CharactersContext).characters;
 };
 
-export default useGlobalGifs;
+export default useGlobalCharacters;
