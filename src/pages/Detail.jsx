@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { CharacterCard } from "components/CharacterCard";
-import useGlobalCharacters from "hooks/useGlobalCharacters";
+import { useCharacters } from "hooks/useCharacters";
 import styled from "styled-components";
 import {
   getCharacterById,
@@ -26,8 +26,9 @@ const DetailContainer = styled.div`
 `;
 
 export const Detail = ({ params }) => {
+  const { characters } = useCharacters();
   const [character, setCharacter] = useState(
-    useGlobalCharacters().find((char) => char.id === Number(params.id))
+    characters.find((char) => char.id === Number(params.id))
   );
   const [recommended, setRecommended] = useState([]);
 
