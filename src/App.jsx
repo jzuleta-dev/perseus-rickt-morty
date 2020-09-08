@@ -12,7 +12,7 @@ const AppContainer = styled.div`
   display: flex;
   flex-direction: column;
   width: 100vw;
-  height: 100%;
+  height: 1500px;
   background-color: #1f2329;
 `;
 function App() {
