@@ -2,13 +2,11 @@
 <html lang="en">
   <head>
     <script type="text/javascript">
-      let intViewportHeight = innerHeight;
-      alert(intViewportHeight);
       parent.postMessage(
         JSON.stringify({
           src: location.toString(),
           context: "iframe.resize",
-          height: intViewportHeight, // pixels
+          height: innerHeight, // pixels
         }),
         "*"
       );
