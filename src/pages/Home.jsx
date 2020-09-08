@@ -47,6 +47,7 @@ export const Home = () => {
   });
   const handleSubmit = (evt) => {
     evt.preventDefault();
+    console.log(path);
     pushLocation(`/search/${keyword}`);
   };
   const handleQueryChange = (evt) => {
