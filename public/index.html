@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <script>
-      window.parent.postMessage(
+      parent.postMessage(
         JSON.stringify({
           src: window.location.toString(),
           context: "iframe.resize",
-          height: window.innerHeight, // pixels
+          height: 1900, // pixels
         }),
         "*"
       );
