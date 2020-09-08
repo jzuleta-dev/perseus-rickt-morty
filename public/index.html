@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <script>
-      window.onresize = window.parent.postMessage(
+      window.parent.postMessage(
         JSON.stringify({
           src: window.location.toString(),
           context: "iframe.resize",
