@@ -1,4 +1,4 @@
-# Rick and Morty... and Perseus
+# Rick and Morty
 
 ## Objective
 
